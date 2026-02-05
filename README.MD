@@ -3,7 +3,7 @@ If this code is useful for you, you can do whatever you want with it.
 
 # Features
 
-This data structures can work only with int types, strings, float. Doubles are threaded as floats.
+These data structures can work only with int types, strings, float. Doubles are threaded as floats.
 
 ## Disclamier
 
