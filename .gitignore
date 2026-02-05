@@ -1,2 +1,5 @@
 .vscode/
 main
+
+dictionary.c
+dictionary.h

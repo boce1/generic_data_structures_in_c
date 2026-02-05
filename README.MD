@@ -1,4 +1,4 @@
-# Licience
+# License
 If this code is useful for you, you can do whatever you want with it.
 
 # Features
@@ -7,7 +7,7 @@ This data structures can work only with int types, strings, float. Doubles are t
 
 ## Disclamier
 
-This is no profesional or very useful repo. I dont want to lose this code and I use this repo as the momory storage.
+This is no profesional nor very useful repo. I dont want to lose this code and I use this repo as backup.
 
 # Fundamental functions
 
@@ -66,4 +66,22 @@ add_to_stack(stack, data) // adds data to the top of the stack, data can be any 
 get_size_stack(stack); // returns unsigned int corresponding to the number of nodes in stack
 ```
 
-### To Do: add trees and stuff
+## Hash set
+`hash_set` - structures with entries with chain method, the arrays inside of hash set is array of `node` data structure above
+```c
+create_hash_set(); // returns the pointer to hash set
+```
+```c
+free_hash_set(hash_set* set); // frees allocated memory for hash set
+```
+```c
+add_to_hash_set(set, data); // adds entry to hash set
+```
+```c
+is_in_hash_set(set, data); // return 0 or 1 depending if the element is in hash set or not
+```
+```c
+remove_entry_from_hash(set, data); // removes the element from the hash set if it exists
+
+```
+### To Do: add trees, and list for pair values in dictionaries
