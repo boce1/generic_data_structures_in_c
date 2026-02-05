@@ -1,5 +1,5 @@
 # Licience
-If the this code is useful for you, you can do whatever you want with it.
+If this code is useful for you, you can do whatever you want with it.
 
 # Features
 
