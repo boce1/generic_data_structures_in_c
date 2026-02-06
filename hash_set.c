@@ -59,9 +59,9 @@ void add_hash_entry(hash_set* set, void* data, int type, int index) {
     node* current = set->entries[index];
     while (current != NULL) {
         if (current->type == type && values_equal(current->data, data, type)) {
-            // Already exists! 
+            // Already exists
             // IMPORTANT: Since the wrappers (add_int_hash_entry, etc.)
-            // just malloc'd 'data', we must free it here before returning.
+            // just malloc'd 'data', we must free it here before returning
             free(data); 
             return; 
         }
